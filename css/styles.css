@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 
 body {
@@ -60,20 +59,20 @@ text-align: center;
   background-color: #93A8AC;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   h1 {
-    font-size: 5rem;
+    font-size: 100px;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 3em;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 4em;
   }
 
   .weather {
-    height: 150px;
+    height: 500px;
   }
 }
